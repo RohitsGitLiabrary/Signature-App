@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+.picker,
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.myCanvas {
+  margin-top: 20px;
+  display: block;
+  border: 2px solid black;
+  width: 100%;
+}
+.colorPicker {
+  display: inline-block;
+  text-align: center;
+}
+.textColor {
+  margin-top: 10px;
+  width: 230px;
+}
+.bgColorPicker {
+  display: inline-block;
+  text-align: center;
+}
+.bgColor {
+  margin-top: 10px;
+  width: 230px;
+}
+.textSizePicker {
+  display: inline-block;
+  text-align: center;
+}
+.textSize {
+  margin-top: 10px;
+  width: 230px;
+  height: 25px;
+  text-align: center;
+  border: 1.5px solid black;
+  border-radius: 4px;
+}
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn {
+  flex: 1;
+  margin-inline: 10px;
+  margin-top: 10px;
+}
